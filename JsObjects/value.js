@@ -13,6 +13,7 @@ person.salary = 30000;
 person["age"] = 26;
 person["fav places"] = ["maldives", "bali", "pataya"];
 
+// changing property value using variables
 const propName = "profession";
 person[propName] = "devops";
 console.log(person);
