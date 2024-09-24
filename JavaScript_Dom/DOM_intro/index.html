@@ -1,31 +1,96 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore DOM</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
     <style>
-        li{
-            color: tomato;
-        }
+      li {
+        color: tomato;
+      }
+      #fruits-title {
+        color: black;
+      }
+      .important-places {
+        color: blueviolet;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Welcome to DOM</h1>
+      <h1>Welcome to DOM</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+        ducimus alias sunt minus neque cupiditate consequatur rem ipsum
+        temporibus quis vel quo quae expedita. Maiores laborum beatae nobis ea
+        eum!
+      </p>
     </header>
     <main>
+      <section>
         <h1>Dom Explore</h1>
         <ul>
-            <li>Dom information</li>
-            <li>Dom learning</li>
-            <li>Dom Thinking</li>
+          <li>Dom information</li>
+          <li>Dom learning</li>
+          <li>Dom Thinking</li>
         </ul>
+      </section>
+      <section class="fruits-container">
+        <h1 id="fruits-title" class="some-class random-class blue-bg">
+          Fruits I like
+        </h1>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Mango</li>
+        </ul>
+      </section>
+      <section id="places-container" class="large-text">
+        <h1 id="places-title">Places I like to visit</h1>
+        <ul>
+          <li class="important-places">Shundorbon</li>
+          <li class="important-places">Bandorbon</li>
+          <li class="important-places">Saintmartin</li>
+          <li>Khagrachori</li>
+        </ul>
+      </section>
     </main>
     <script src="js/js_dom.js"></script>
+    <script src="js/styleInJs.js"></script>
     <script>
-        console.log('adding JS inside the html file')
+      const liCollection = document.getElementsByTagName("li");
+      console.log(liCollection);
+      //   Using for loop in to store get getElementByTagName
+      for (const li of liCollection) {
+        // console.log(li.innerText);
+      }
+
+      // option-1  for all h1 tags
+      const allHeadings = document.getElementsByTagName("h1");
+      for (const h1 of allHeadings) {
+        // console.log(h1.innerText);
+      }
+
+      // option-2  fruits title changed by JS
+      const fruitTitle = document.getElementById("fruits-title");
+      fruitTitle.innerText = "Fruits item list";
+
+      // option-3  getElementsByClassName
+      const places = document.getElementsByClassName("important-places");
+      for (const place of places) {
+        // console.log(place.innerText);
+      }
+
+      // option-4: querySelector
+
+      // option-5: querySelectorAll
+      const someLi = document.querySelectorAll(".fruits-title li");
+      for (const li of someLi) {
+        // console.log(li.innerText);
+      }
     </script>
-</body>
+  </body>
 </html>
