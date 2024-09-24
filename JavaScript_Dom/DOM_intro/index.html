@@ -29,7 +29,7 @@
         eum!
       </p>
     </header>
-    <main>
+    <main id="main-container">
       <section>
         <h1>Dom Explore</h1>
         <ul>
@@ -50,7 +50,7 @@
       </section>
       <section id="places-container" class="large-text">
         <h1 id="places-title">Places I like to visit</h1>
-        <ul>
+        <ul id="places-list">
           <li class="important-places">Shundorbon</li>
           <li class="important-places">Bandorbon</li>
           <li class="important-places">Saintmartin</li>
@@ -59,10 +59,11 @@
       </section>
     </main>
     <script src="js/js_dom.js"></script>
+    <script src="js/append.js"></script>
     <script src="js/styleInJs.js"></script>
     <script>
       const liCollection = document.getElementsByTagName("li");
-      console.log(liCollection);
+      // console.log(liCollection);
       //   Using for loop in to store get getElementByTagName
       for (const li of liCollection) {
         // console.log(li.innerText);
