@@ -9,4 +9,22 @@ const products = [
 
 //map
 const names = products.map((product) => product.name);
-console.log(names);
+// console.log(names);
+
+const prices = products.map((p) => p.price);
+// console.log(prices);
+
+// forEach
+products.forEach((p) => console.log(p.id));
+
+// filter
+const expensive = products.filter((p) => p.price > 50000);
+console.log(expensive);
+
+// find
+const affordable = products.find((p) => p.price < 50000);
+console.log(affordable);
+
+// reduce
+const total = products.reduce((acum, current) => acum + current.price, 0);
+console.log(total);
