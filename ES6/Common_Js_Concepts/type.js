@@ -11,3 +11,4 @@
 // dynamic type Language
 
 const a = 5;
+const b = "Some Common Js Concepts";
