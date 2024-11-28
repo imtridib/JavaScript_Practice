@@ -31,3 +31,5 @@ console.log(x, y);
 
 let p = { job: "web developer" };
 let q = p;
+q = { job: "Backend developer" };
+console.log(p, q);
