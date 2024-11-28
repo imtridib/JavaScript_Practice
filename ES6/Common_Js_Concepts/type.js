@@ -1,0 +1,13 @@
+/** @format */
+
+// Strongly typed Language
+// int a = 5
+// string b = "alpha beta gama"
+// bool c = True
+// object student = { name: "new one", id: 55}
+// int[] numbers= [12, 45, 78]
+// string[] friends = ['alpha', 'beta']
+
+// dynamic type Language
+
+const a = 5;
