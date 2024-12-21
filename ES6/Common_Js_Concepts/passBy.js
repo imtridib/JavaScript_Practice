@@ -1,5 +1,7 @@
 /** @format */
 
+//  primitive types are pass by value
+
 let num1 = 5;
 let num2 = 7;
 function multiply(a, b) {
@@ -12,6 +14,7 @@ console.log(num1); // primitive will not change though it is resign
 multiply(num1, num2);
 console.log(num1);
 
+// object and array are pass by reference
 let student1 = { name: "Jalil", partner: "borsha" };
 let student2 = { name: "raj", partner: "anika" };
 
