@@ -1,5 +1,9 @@
 /** @format */
 
+
+// always use ===
+// equal comparison doesn't work for non-primitive
+
 // const first = 2;
 // const second = "2";
 
@@ -9,11 +13,12 @@
 // const first = "0";
 // const second = false;
 
-const first = [];
-const second = [];
+// const first = [];
+// const second = [];
 
-const first = { x: 5 };
-const second = { x: 5 };
+// const first = { x: 5 };
+// const second = { x: 5 };
+
 if (first == second) {
   console.log("values are equal");
 } else {

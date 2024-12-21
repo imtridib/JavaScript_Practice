@@ -17,7 +17,7 @@ greeting(greetingHandler, "Tom");
 
 greeting(greetEvening, "Jery");
 
-// callBack Function uses
+// callBack Function uses example
 function submitHandler() {
   console.log("submit button clicked");
 }
