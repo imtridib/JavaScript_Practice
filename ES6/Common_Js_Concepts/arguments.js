@@ -1,5 +1,6 @@
 /** @format */
 
+// new
 // array like object
 function sum(a, b, c) {
   const args = [...arguments]; // converting object to pure array
