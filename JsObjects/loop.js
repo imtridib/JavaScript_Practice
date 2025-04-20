@@ -2,7 +2,7 @@
 
 const mobile = {
   brand: "samsung",
-  price: 250000,
+  price: 25000,
   color: "12mp",
   isNew: true,
 };
