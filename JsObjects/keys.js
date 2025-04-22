@@ -2,7 +2,7 @@
 
 const computer = {
   brand: "lenovo",
-  price: 350000,
+  price: 35000,
   processor: "intel",
   hdd: "512gb",
   monitor: "hp",
