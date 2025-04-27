@@ -1,16 +1,5 @@
 /** @format */
 
-// // 1. where to add(li component)
-// const placesList = document.getElementById("places-list");
-// console.log(placesList);
-
-// // 2.what to be added
-// const li = document.createElement("li");
-// li.innerText = "Rajshahi";
-
-// // 3. add the child
-// placesList.appendChild(li);
-
 // 1. Where to add
 const placesList = document.getElementById("places-list");
 console.log(placesList);

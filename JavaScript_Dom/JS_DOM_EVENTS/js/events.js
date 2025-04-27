@@ -11,6 +11,13 @@ function makeRed() {
 }
 
 // option: 3
+// const makeBlueButton = document.getElementById("make-blue");
+// makeBlueButton.onclick = makeBlue;
+// function makeBlue() {
+//   document.body.style.background = "blue";
+// }
+
+// option: 3
 const makeBlueButton = document.getElementById("make-blue");
 makeBlueButton.onclick = makeBlue;
 function makeBlue() {
