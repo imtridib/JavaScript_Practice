@@ -10,12 +10,6 @@ function makeRed() {
   document.body.style.background = "red";
 }
 
-// option: 3
-// const makeBlueButton = document.getElementById("make-blue");
-// makeBlueButton.onclick = makeBlue;
-// function makeBlue() {
-//   document.body.style.background = "blue";
-// }
 
 // option: 3
 const makeBlueButton = document.getElementById("make-blue");
@@ -47,8 +41,12 @@ makeGreenButton.addEventListener("click", function makeGreen() {
 // option: 4 Final
 // IMPORTANT: we will use this sometimes
 //   document.getElementById('make-goldenrod').addEventListener('click', function(){})
-document
-  .getElementById("make-goldenrod")
-  .addEventListener("click", function () {
-    document.body.style.backgroundColor = "goldenrod";
-  });
+// document
+//   .getElementById("make-goldenrod")
+//   .addEventListener("click", function () {
+//     document.body.style.backgroundColor = "goldenrod";
+//   });
+
+document.getElementById("make-goldenrod").addEventListener("click", function () {
+  document.body.style.backgroundColor = 'goldenrod';
+})
