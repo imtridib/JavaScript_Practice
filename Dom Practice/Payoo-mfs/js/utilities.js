@@ -1,12 +1,12 @@
 /** @format */
-
+// these utilite use to automate the system
 function getInputFieldValueById(id) {
   const inputValue = document.getElementById(id).value;
   const inputNumber = parseFloat(inputValue);
 
   return inputNumber;
 }
-
+// by giving id as input it gives the output
 function getTextFieldValueById(id) {
   const textValue = document.getElementById(id).innerText;
   const textNumber = parseFloat(textValue);
