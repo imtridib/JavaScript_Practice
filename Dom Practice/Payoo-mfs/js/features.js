@@ -1,5 +1,5 @@
 /** @format */
-
+// Features JavaScript
 // show the cash out form
 // document
 //   .getElementById("btn-show-cash-out")
