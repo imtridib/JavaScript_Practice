@@ -8,4 +8,4 @@ function isEven(number) {
   }
 }
 
-console.log(isEven(30));
+console.log(isEven(20));
