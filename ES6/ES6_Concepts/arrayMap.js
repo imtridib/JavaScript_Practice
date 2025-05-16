@@ -1,5 +1,5 @@
 /** @format */
-
+// Array Mapping 
 const numbers = [4, 5, 2, 8, 10];
 
 function doubleIt(num) {
