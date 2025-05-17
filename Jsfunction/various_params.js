@@ -13,7 +13,6 @@ function evenSizedString(str) {
     console.log("odd size");
   }
 }
-// evenSizedString("Dhaka");
 // evenSizedString("Taka");
 
 function doubleOrTriple(number, doDouble) {
