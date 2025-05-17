@@ -1,5 +1,4 @@
 /** @format */
-// json learning
 const user = { id: 1, name: "Ononto", job: "actor" };
 // JavaScript Object Notation
 const stringified = JSON.stringify(user);

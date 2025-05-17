@@ -1,5 +1,4 @@
 /** @format */
-// fetch learning
 console.log("fetching");
 
 // fetch("https://jsonplaceholder.typicode.com/todos/1")
