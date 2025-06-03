@@ -9,7 +9,7 @@ function loadUsers2() {
 //     console.log(user.username);
 //   }
 // }
-
+// SHowing the results from the fetch
 function displayUsers2(data) {
   const ul = document.getElementById("users-list");
   for (const user of data) {
